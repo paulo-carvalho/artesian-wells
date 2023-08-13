@@ -7,10 +7,7 @@ frontend:
     # IMPORTANT - Please verify your build commands
     build:
       commands: []
-  #artifacts:
-    #baseDirectory: build
-    #files:
-      #- '**/*'
+  artifact: WebApp
   cache:
     paths:
       - node_modules/**/*
