@@ -93,7 +93,7 @@ typings/
 # TernJS port file
 .tern-port
 
-build
+# build
 .firebase
 
 package-lock.json

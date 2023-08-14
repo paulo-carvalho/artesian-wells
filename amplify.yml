@@ -5,6 +5,7 @@ frontend:
       commands:
         - npm install env-cmd
         - npm ci
+        - yarn install
     build:
       commands:
         - echo "I am running 🏃 on $BUILD_ENV" 
