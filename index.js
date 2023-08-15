@@ -1,6 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// Limpar o conteúdo HTML existente
+document.body.innerHTML = '<div id="app"></div>';
+
+// Em vez disso, renderize seu componente React
+const root = createRoot(document.getElementById('app'));
+root.render(<h1>Hello, world</h1>);

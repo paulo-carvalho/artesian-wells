@@ -10,7 +10,7 @@ frontend:
         - echo "I am running 🏃 on $BUILD_ENV" 
         - npm run --build:$BUILD_ENV
   artifacts:
-    baseDirectory: tree/main
+    baseDirectory: index.js
     files:
       - '**/*'
   cache:
