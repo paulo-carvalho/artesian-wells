@@ -4,10 +4,10 @@ frontend:
     preBuild:
       commands:
         - cd artesian-wells
-        - yarn install
+        - npm ci
     build:
       commands:
-        - npm start
+        - npm run build
   artifacts:
     baseDirectory: build
     files:
