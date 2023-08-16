@@ -3,12 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install -g serve
         - cd artesian-wells
         - npm ci
     build:
       commands:
-        - serve -s build
+        - npm start
   artifacts:
     baseDirectory: build
     files:

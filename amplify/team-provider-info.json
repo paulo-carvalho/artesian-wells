@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-artesianwells-dev-224331-authRole",
+      "UnauthRoleArn": "arn:aws:iam::060184443643:role/amplify-artesianwells-dev-224331-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::060184443643:role/amplify-artesianwells-dev-224331-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-artesianwells-dev-224331-deployment",
+      "UnauthRoleName": "amplify-artesianwells-dev-224331-unauthRole",
+      "StackName": "amplify-artesianwells-dev-224331",
+      "StackId": "arn:aws:cloudformation:us-east-2:060184443643:stack/amplify-artesianwells-dev-224331/50cd8370-3bd6-11ee-9ae1-060d921d8553",
+      "AmplifyAppId": "d3ri4kndvij8yl"
+    }
+  }
+}
