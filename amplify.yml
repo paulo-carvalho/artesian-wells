@@ -5,7 +5,7 @@ frontend:
       commands:
         - npm install -g serve
         - cd artesian-wells
-        - npm install
+        - npm ci
     build:
       commands:
         - serve -s build
