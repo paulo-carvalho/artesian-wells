@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
+Sitemap: https://main.d3ri4kndvij8yl.amplifyapp.com/sitemap.xml
+
 User-agent: *
-Disallow:
+Allow: /
