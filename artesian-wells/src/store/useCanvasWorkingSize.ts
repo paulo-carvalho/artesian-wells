@@ -4,7 +4,7 @@ import type { CanvasWorkingSize } from '~/config/types';
 
 const DEFAULT_CANVAS_WORKING_SIZE = {
   width: 500,
-  height: 500,
+  height: 1000,
 };
 
 const useCanvasWorkingSize = create<{
